@@ -34,22 +34,23 @@ This project utilizes the following technologies:
 ##   Project Structure 📂
 
 A typical project structure might look like this:
-helmet detection/
-├── data/
-│   ├── images/        # Directory for image datasets
-│   ├── videos/        # Directory for video datasets
-│   └── annotations/   # (If applicable) For annotation files
-├── models/
-│   ├── yolo_weights/   # YOLO model weights and config files
-│   └── saved_model/   # (If applicable) Saved TensorFlow/PyTorch models
-├── src/
-│   ├── main.py        # Main script to run the system
-│   ├── detection.py   # (If applicable) Helmet detection logic
-│   ├── signal_control.py # (If applicable) Traffic signal control logic
-│   ├── utils.py        # (If applicable) Utility functions
-├── requirements.txt   # List of Python dependencies
-├── README.md          # This file
-└── ... #              # Other project-specific files
+helmet-detection/  
+├── data/  
+│   ├── images/               # Directory for image datasets  
+│   ├── videos/               # Directory for video datasets  
+│   └── annotations/          # Annotation files (if applicable)  
+├── models/  
+│   ├── yolo_weights/         # YOLO model weights and config files  
+│   └── saved_model/          # Saved TensorFlow/PyTorch models (if applicable)  
+├── src/  
+│   ├── main.py               # Main script to run the system  
+│   ├── detection.py          # Helmet detection logic  
+│   ├── signal_control.py     # Traffic signal control logic (if applicable)  
+│   ├── utils.py              # Utility functions  
+├── requirements.txt          # Python dependencies  
+├── README.md                 # Project documentation  
+└── ...                       # Other project-specific files  
+
 
 
 ## System Architecture
