@@ -51,6 +51,13 @@ helmet-detection/
 ├── README.md                 # Project documentation  
 └── ...                       # Other project-specific files  
 
+## 📦 Dataset
+
+Download the training dataset and labels from the following Google Drive link:
+
+📥 [Download Dataset](https://drive.google.com/drive/folders/1IYPAyVHQkEot8RVq7QIEq9CgTW-zG4CR)
+
+Place the extracted folders inside the `data/` directory as follows:
 
 
 ## System Architecture
