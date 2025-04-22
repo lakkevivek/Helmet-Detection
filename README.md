@@ -34,7 +34,7 @@ This project utilizes the following technologies:
 ##   Project Structure 📂
 
 A typical project structure might look like this:
-
+helmet detection/
 ├── data/
 │   ├── images/        # Directory for image datasets
 │   ├── videos/        # Directory for video datasets
@@ -49,7 +49,7 @@ A typical project structure might look like this:
 │   ├── utils.py        # (If applicable) Utility functions
 ├── requirements.txt   # List of Python dependencies
 ├── README.md          # This file
-└── ...                # Other project-specific files
+└── ... #              # Other project-specific files
 
 
 ## System Architecture
